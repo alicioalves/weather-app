@@ -1,9 +1,6 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-console.log(process.env.REACT_APP_GEO_DB_KEY);
-console.log(process.env.REACT_APP_OPEN_WEATHER_KEY);
-
 const Home = lazy(() => import("./pages/Home"));
 
 function App() {
