@@ -17,5 +17,5 @@ As bibliotecas usadas foram:
 
 Como rodar o projeto
 
-`npm para instalar as bibliotecas
-npm start para rodar o projeto`
+```npm para instalar as bibliotecas
+npm start para rodar o projeto```
