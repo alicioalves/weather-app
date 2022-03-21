@@ -2,7 +2,7 @@
 
 SPA mobile first desenvolvido em React.js.
 
-*O usuário informa a cidade que deseja consultar as informações de clima atuais. Ao começar a digitar, uma database de cidades é consultada e as cidades que começam com o prefixo digitado são retornadas para o usuário em uma lista. Após informar a ciddade, informações como temperatura, descrição do clima e umidade são retornadas na tela.
+O usuário informa a cidade que deseja consultar as informações de clima atuais. Ao começar a digitar, uma database de cidades é consultada e as cidades que começam com o prefixo digitado são retornadas para o usuário em uma lista. Após informar a ciddade, informações como temperatura, descrição do clima e umidade são retornadas na tela.
 
 ## Bibliotecas 
 
