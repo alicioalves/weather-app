@@ -13,7 +13,7 @@ As bibliotecas usadas foram:
 * Para fazer as requisições das APIs e retornar o resultado foi usado o [axios](https://axios-http.com/)
 * Para atrasar o tempo entre requisições da API e evitar calls desnecessárias foi usado o [lodash-debounce](https://lodash.com/)
 * Para fazer as rotas, foi usado o [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
-* As APIs utilizadas foram: [GeoDB Cities](http://geodb-cities-api.wirefreethought.com/) e o[OpenWeather](https://openweathermap.org/)
+* As APIs utilizadas foram: [GeoDB Cities](http://geodb-cities-api.wirefreethought.com/) e o [OpenWeather](https://openweathermap.org/)
 
 Como rodar o projeto
 
