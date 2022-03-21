@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import useFetch from "../../Hooks/useFetch";
+import useFetch from "../../hooks/useFetch";
 import WeatherContainer from "../../components/WeatherContainer";
 import * as S from "./styles";
 import { Search } from "@styled-icons/bootstrap/Search";
