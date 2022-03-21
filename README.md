@@ -8,7 +8,7 @@ O usuário informa a cidade que deseja consultar as informações de clima atuai
 
 As bibliotecas usadas foram:
 
-* Para melhor organização do código e responsibilidade foi utilizado [styled-component](https://styled-components.com/)
+* Para melhor organização do código e responsibilidade foi utilizado [styled-component](https://styled-components.com/) com [styled-media-query](https://github.com/morajabi/styled-media-query)
 * Para a lista de cidades, foi usado o [react-select](https://react-select.com/home)
 * Para fazer as requisições das APIs e retornar o resultado foi usado o [axios](https://axios-http.com/)
 * Para atrasar o tempo entre requisições da API e evitar calls desnecessárias foi usado o [lodash-debounce](https://lodash.com/)
