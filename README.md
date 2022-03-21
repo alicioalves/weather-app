@@ -1,46 +1,21 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SPA mobile first desenvolvido em React.js.
 
-## Available Scripts
+*O usuário informa a cidade que deseja consultar as informações de clima atuais. Ao começar a digitar, uma database de cidades é consultada e as cidades que começam com o prefixo digitado são retornadas para o usuário em uma lista. Após informar a ciddade, informações como temperatura, descrição do clima e umidade são retornadas na tela.
 
-In the project directory, you can run:
+## Bibliotecas 
 
-### `npm start`
+As bibliotecas usadas foram:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Para melhor organização do código e responsibilidade foi utilizado [styled-component](https://styled-components.com/)
+* Para a lista de cidades, foi usado o [react-select](https://react-select.com/home)
+* Para fazer as requisições das APIs e retornar o resultado foi usado o [axios](https://axios-http.com/)
+* Para atrasar o tempo entre requisições da API e evitar calls desnecessárias foi usado o [lodash-debounce](https://lodash.com/)
+* Para fazer as rotas, foi usado o [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
+* As APIs utilizadas foram: [GeoDB Cities](http://geodb-cities-api.wirefreethought.com/) e o[OpenWeather](https://openweathermap.org/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Como rodar o projeto
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+>`npm para instalar as bibliotecas`
+>`npm start para rodar o projeto`
