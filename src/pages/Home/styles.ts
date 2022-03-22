@@ -87,13 +87,8 @@ export const Icon = styled.span`
   width: 30px;
   height: 30px;
   right: 10%;
-  top: 10%;
+  top: 6.6%;
   color: #dadada;
-
-  ${media.between("small", "medium")`
-    right: 10%;
-    top: 6.6%;
-    `}
 
   ${media.between("medium", "large")`
     right: 10%;

@@ -4,7 +4,7 @@ import WeatherContainer from "../../components/WeatherContainer";
 import * as S from "./styles";
 import { Search } from "@styled-icons/bootstrap/Search";
 import { getCurrentDate } from "../../utils/getActualDate";
-import { requestCitiesList } from "../../api/getDBCitiesAPI";
+import { requestCitiesList } from "../../api/geoDBCitiesAPI";
 import { requestWeatherInfo } from "../../api/openWeatherAPI";
 import { lang } from "../../utils/setLanguage";
 import { units } from "../../utils/setUnits";
@@ -44,6 +44,7 @@ const Home = () => {
   }, 1000);
 
   const getCitiesList = async (cityName: string) => {
+    // eslint-disable-next-line
     if (/^[a-zA-Z\u0080-\u024F\s\/\-\)\(\`\.\"\']+$/.test(cityName)) {
       const { response } = await request(requestCitiesList(cityName));
       if (response.data.data.length === 0) {
