@@ -16,3 +16,4 @@ export const requestCitiesList = (cityName: string) => {
     },
   };
 };
+console.log(process.env.GEO_DB_KEY);
