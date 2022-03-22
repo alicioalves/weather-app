@@ -12,7 +12,7 @@ export const requestCitiesList = (cityName: string) => {
     },
     headers: {
       "x-rapidapi-host": "wft-geo-db.p.rapidapi.com",
-      "x-rapidapi-key": `${process.env.REACT_APP_GEO_DB_KEY}`,
+      "x-rapidapi-key": `${process.env.GEO_DB_KEY}`,
     },
   };
 };
