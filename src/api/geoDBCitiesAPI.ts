@@ -1,5 +1,7 @@
 import { lang } from "../utils/setLanguage";
 
+const geoKey = process.env.GEO_DB_KEY;
+
 export const requestCitiesList = (cityName: string) => {
   return {
     method: "GET",
@@ -12,8 +14,8 @@ export const requestCitiesList = (cityName: string) => {
     },
     headers: {
       "x-rapidapi-host": "wft-geo-db.p.rapidapi.com",
-      "x-rapidapi-key": `${process.env.GEO_DB_KEY}`,
+      "x-rapidapi-key": `${geoKey}`,
     },
   };
 };
-console.log(process.env.GEO_DB_KEY);
+console.log(geoKey);
